@@ -2,7 +2,7 @@ services:
   - mysql
   - redis
 language: php
-dist: bionic
+dist: xenial
 jobs:
   include:
     - dist: focal
