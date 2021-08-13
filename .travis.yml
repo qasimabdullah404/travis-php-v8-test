@@ -2,6 +2,8 @@ services:
   - mysql
   - redis
 language: php
+php:
+  - 8.0
 jobs:
   include:
     - dist: focal
