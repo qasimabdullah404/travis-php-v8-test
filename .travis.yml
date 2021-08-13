@@ -1,6 +1,7 @@
 services:
   - mysql
   - redis
+language: php
 jobs:
   include:
     - dist: focal
