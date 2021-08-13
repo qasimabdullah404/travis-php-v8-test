@@ -2,6 +2,8 @@ services:
   - mysql
   - redis
 language: php
+php:
+  - 7.3
 dist: xenial
 jobs:
   include:
