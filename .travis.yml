@@ -3,7 +3,7 @@ services:
   - redis
 language: php
 php:
-  - 7.3
+  - 7.0
 dist: xenial
 jobs:
   include:
