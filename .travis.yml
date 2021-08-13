@@ -3,8 +3,8 @@ services:
   - redis
 language: php
 php:
-  - 7.0
-dist: xenial
+  - nightly
+dist: focal
 jobs:
   include:
     - dist: focal
