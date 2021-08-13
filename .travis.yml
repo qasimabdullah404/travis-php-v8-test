@@ -1,0 +1,16 @@
+language: php
+
+services:
+  - mysql
+  - redis
+jobs:
+  include:
+  - php: 7.3
+    dist: focal
+
+  - php: 8.0
+    dist: focal
+
+
+script:
+  - php -v
