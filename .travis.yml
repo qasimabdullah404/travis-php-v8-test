@@ -5,7 +5,7 @@ services:
   - redis
 jobs:
   include:
-  - stage: PHP 7.3
+  - stage: PHP-7.3
     dist: focal
     before_install:
       - sudo apt install -y software-properties-common
@@ -15,7 +15,7 @@ jobs:
     script:
       - php -v
 
-  - php: 8.0
+  - stage: PHP-8.0
     dist: focal
     before_install:
       - sudo apt update
