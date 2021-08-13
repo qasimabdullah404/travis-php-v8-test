@@ -1,12 +1,10 @@
-language: php
-
 services:
   - mysql
   - redis
 jobs:
   include:
   - stage: PHP-7.3
-    dist: focal
+    dist: bionic
     before_install:
       - sudo apt install -y software-properties-common
       - sudo add-apt-repository -y ppa:ondrej/php
