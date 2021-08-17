@@ -12,3 +12,8 @@ before_install:
 - sudo update-alternatives --set php /usr/bin/php8.0
 script:
 - php -v
+
+notifications:
+  email:
+    - on_pull_requests: true
+    - qasim.abdullah@travis-ci.org
