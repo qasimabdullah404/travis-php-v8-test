@@ -15,5 +15,4 @@ script:
 
 notifications:
   email:
-    - on_pull_requests: true
     - qasim.abdullah@travis-ci.org
